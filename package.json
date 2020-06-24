@@ -1,0 +1,36 @@
+{
+  "name": "srcom",
+  "version": "1.0.0",
+  "description": "cli tool to get and post runs to speedrun.com",
+  "bin": {
+    "srcom": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slashinfty/srcom.git"
+  },
+  "keywords": [
+    "speedrun",
+    "speedrunning"
+  ],
+  "author": "Matt Braddock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slashinfty/srcom/issues"
+  },
+  "homepage": "https://github.com/slashinfty/srcom#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.4.0",
+    "node-fetch": "^2.6.0"
+  }
+}
