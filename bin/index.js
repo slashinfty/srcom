@@ -17,6 +17,7 @@ async function startHere() {
       cmd.get('world record').exe();
       break;
     case '2':
+      cmd.get('personal best').exe();
       break;
     case '3':
       break;
