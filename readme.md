@@ -14,6 +14,4 @@ npm i -g srcom
 
 ## Usage
 
-```
-srcom
-```
+Type `srcom` in a terminal/command line and follow the prompts.
