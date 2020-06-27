@@ -20,8 +20,10 @@ async function startHere() {
       cmd.get('personal best').exe();
       break;
     case '3':
+      cmd.get('rules').exe();
       break;
     case '4':
+      cmd.get('submit run').exe();
       break;
     case '5':
       const pkg = require(path.join(__dirname, '../', 'package.json'))
