@@ -1,6 +1,6 @@
 {
   "name": "srcom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cli tool to get and post runs to speedrun.com",
   "bin": {
     "srcom": "./bin/index.js"
