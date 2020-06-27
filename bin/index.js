@@ -28,6 +28,7 @@ async function startHere() {
     case '5':
       const pkg = require(path.join(__dirname, '../', 'package.json'))
       console.log(chalk.yellow('Version: ' + pkg.version + '\n' + 'https://github.com/slashinfty/srcom'));
+      if(fs.existsSync(path.join(__dirname, '../', '.env'))) console.log(chalk.yellow('API key can be found: ' + path.join(__dirname, '../', '.env')))
       return;
       break;
     default:
